@@ -1,1 +1,81 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Coder Profile page</title>
+  
+  
+  
+      <style>
+      /* NOTE: The styles were added inline because Prefixfree needs access to your styles and they must be inlined if they are on local disk! */
+      body {
+  background: #ecf0f1;
+}
 
+.window {
+  width: 50%;
+  margin: 0 auto;
+  border-top: 25px solid #b4b4b4;
+  border-radius: 10px;
+  padding: 2%;
+  padding-bottom: 100px;
+}
+
+.sublime {
+  list-style: none;
+  background: #262728;
+  color: #f1f1f1;
+  font-family: Menlo;
+  font-weight: 200;
+}
+.sublime li {
+  height: 25px;
+  line-height: 25px;
+}
+.sublime .tab {
+  margin-left: 2%;
+  list-style: none;
+}
+.sublime .red {
+  color: #EB5E5B;
+}
+.sublime .blue {
+  color: #5695BF;
+}
+.sublime .green {
+  color: #5AE897;
+}
+.sublime .yellow {
+  color: #F1D35C;
+}
+
+    </style>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+
+</head>
+
+<body>
+  <ul class='window sublime'>
+  <li><span class='green'>var</span> Conlin = new <strong>Person</strong>();</li>
+  <li>Conlin.name = "<span class='red'>Conlin Durbin</span>";</li>
+    <li>Conlin.home = "<span class='red'>West Lafayette, IN</span>";</li>
+  <li><span class='yellow'>Conlin</span>.<span class='blue'>occupation</span> = <span class='green'>function</span>(time) {</li>
+  <ul class='tab'>
+    <li><span class='green'>if</span>(time=="<span class='red'>day</span>") {</li>
+      <ul class='tab'>
+        <li><span class='green'>return</span> "<span class='red'>Computer Science Student</span>"</li>
+      </ul>
+    <li>} <span class='green'>else if</span>(time=="<span class='red'>night</span>"{</li>
+    <ul class='tab'>
+      <li><span class='green'>return</span> "<span class='red'>Front End Developer</span>"</li>
+    </ul>
+    <li>}</li>
+    <li class='current-line'>var link = "<a href='#' class='red'>Get in contact</a>";
+  </ul>
+</ul>
+  <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+
+  
+</body>
+</html>
